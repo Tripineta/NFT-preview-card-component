@@ -44,10 +44,6 @@ body {
     width: 100%;
 }
 
-.card_img:hover {
-    cursor: pointer;
-}
-
 .card_due, .card_value, .card_author {
     display: flex;
     align-items: center;
@@ -107,6 +103,7 @@ body {
 
 .card_image_overlay:hover {
     transition: 350ms;
+    cursor: pointer;
     opacity: 1;
 }
 
