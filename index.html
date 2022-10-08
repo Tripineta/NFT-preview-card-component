@@ -5,51 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="./style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet"> 
   
-  <title>Frontend Mentor | NFT preview card component</title>
+  <title>Frontend Mentor | Interactive rating component</title>
 
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
 </head>
 <body>
-  <main class="section">
-    <article class="card">
-      <div class="card_img_container">
-        <img class="card_img" src="./images/image-equilibrium.jpg" alt="Imagen del NFT. Cubo translúcido sobre fonde azul oscuro."/>
-        <div class="card_image_overlay">
-          <img class="card_image_icon" src="./images/icon-view.svg" alt="Ícono de ojo"/>
-        </div>
-      </div>
-      
-      
-      <h3 class="card_title">Equilibrium #3429</h3>
-      <p class="card_description">Our Equilibrium collection promotes balance and calm.</p>
 
-      <div class="card_info">
+  <!-- Rating state start -->
 
-        <div class="card_value">
-          <img class="card_value_img" src="./images/icon-ethereum.svg" alt="Ícono de Ethereum"/>
-          <p class="card_value_price">0.041 ETH</p>
-        </div>
+  <h1 class="card_title">How did we do?</h1>
 
-        <div class="card_due">
-          <img class="card_due_img" src="./images/icon-clock.svg" alt="Ícono de un reloj"/>
-          <p class="card_due_time">3 days left</p>
-        </div>
+  <p class="card_description">Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!</p>
 
-      </div>
-      <div class="card_line_divider"></div>
-      <div class="card_author">
-        <img class="card_author_img" src="./images/image-avatar.png" alt="Avatar del autor del NFT"/>
-        <p class="card_author_name">Creation of <span class="card_author_name_clickable">Jules Wyvern</span></p>
-      </div>
-    </article>
-  </main>  
-  <footer class="attribution">
+  1 2 3 4 5
+
+  <button class="card_button">Submit</button>
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+  You selected <!-- Add rating here --> out of 5
+
+  Thank you!
+
+  We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!
+
+  <!-- Thank you state end -->
+
+  
+  <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://www.linkedin.com/in/gaston-alvarez-trpin/">Gastón Alvarez Trpin</a>.
-  </footer>
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
 </body>
 </html>
