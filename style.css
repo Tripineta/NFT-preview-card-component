@@ -125,13 +125,8 @@ body {
 
 .card_value_price {
     font-weight: 600;
-    transition: 350ms;
-}
-
-.card_value_price:hover {
-    transition: 350ms;
     color: hsl(178, 100%, 50%);
-    cursor: pointer;
+    transition: 350ms;
 }
 
 h3 {
